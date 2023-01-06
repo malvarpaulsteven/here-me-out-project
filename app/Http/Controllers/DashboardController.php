@@ -9,9 +9,6 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        if (Auth::guest()) {
-            return redirect()->route('login');
-        }
         return view('pages.dashboard');
     }
 }

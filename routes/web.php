@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\DashboardController;
+use Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
+    if (Auth::guest()) {
+        return redirect()->route('login');
+    }
     return view('pages.dashboard');
 });
 
