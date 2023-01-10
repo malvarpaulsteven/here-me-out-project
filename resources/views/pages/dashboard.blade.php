@@ -9,8 +9,9 @@
             <img class="card-img-top" src="{{ URL('img/question.jpg') }}"
                  alt="Card image cap">
             <div class="card-body">
-              <p class="card-title">Questions</p>
-              <a class="btn btn-success" href="#">Click Here</a>
+              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link">Questions</p></a>
+              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Questions</p></a>
+              {{-- <a class="btn btn-success" href="#">Click Here</a> --}}
             </div>
           </div>
         </div>
@@ -19,8 +20,9 @@
             <img class="card-img-top" src="{{ URL('img/question.jpg') }}"
                  alt="Card image cap">
             <div class="card-body">
-              <p class="card-title">Connect with volunteers.</p>
-              <a class="btn btn-success" href="#">Click Here</a>
+              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link">Connect with volunteers.</p></a>
+              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Volunteers.</p></a>
+              {{-- <a class="btn btn-success" href="#">Click Here</a> --}}
             </div>
           </div>
         </div>
@@ -29,8 +31,9 @@
                 <img class="card-img-top" src="{{ URL('img/question.jpg') }}"
                    alt="Card image cap">
               <div class="card-body">
-                <p class="card-title">Connect with professionals.</p>
-                <a class="btn btn-success" href="#">Click Here</a>
+                <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link">Connect with professionals.</p></a>
+                <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Professionals.</p></a>
+                {{-- <a class="btn btn-success" href="#">Click Here</a> --}}
               </div>
             </div>
         </div>
@@ -39,8 +42,9 @@
             <img class="card-img-top" src="{{ URL('img/question.jpg') }}"
                  alt="Card image cap">
             <div class="card-body">
-                <p class="card-title">Time Capsule</p>
-                <a class="btn btn-success" href="#">Click Here</a>
+              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link">Time Capsule.</p></a>
+              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Time Capsule.</p></a>
+                {{-- <a class="btn btn-success" href="#">Click Here</a> --}}
             </div>
           </div>
         </div>
