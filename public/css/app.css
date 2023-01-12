@@ -123,12 +123,15 @@
 
 /* Dashboard */
 .dashboard-page {
-
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     z-index: 7;
-    margin-top: 100px !important;
+    /* margin-top: 100px !important; */
+}
+.alert-css {
+    margin-top: 20px;
 }
 
 .card-container{
@@ -170,3 +173,10 @@
   }
 }
 
+/* About Page CSS */
+
+
+/* Messenger */
+.messenger {
+    margin-top: 20px;
+}

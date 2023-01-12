@@ -1,6 +1,8 @@
 @extends('pages.layout')
 
 @section('content')
+
+
 {{--  --}}
 <div class="login-page container">
     <div class="row justify-content-center">
@@ -70,6 +72,43 @@
             </div>
         </div>
     </div>
+</div>
+<div class="alert-css">
+    <div class="container">
+        @if ($message = Session::get('success'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>{{ $message }}</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
+
+    @if ($message = Session::get('error'))
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>{{ $message }}</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
+
+    @if ($message = Session::get('warning'))
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>{{ $message }}</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
+
+    @if ($message = Session::get('info'))
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+      <strong>{{ $message }}</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
+
+    @if ($errors->any())
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>Please check the form below for errors</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
 </div>
 <div class="wave custom-shape-divider-bottom-1673319403">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
