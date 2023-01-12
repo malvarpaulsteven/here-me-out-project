@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="{{ URL('img/mental2.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3312ebb1ff.js" crossorigin="anonymous"></script>
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body class="bg-warning">
@@ -47,14 +48,13 @@
                             @endif
                         @else
                         <li class="nav-item d-flex flex-direction-row">
-                            <a href="{{ url('/') }}" class="nav-link text-light">Home</a>
-                        </li>
-                        <li class="nav-item d-flex flex-direction-row">
                             <a href="{{ url('/dashboard') }}" class="nav-link text-light">Dashboard</a>
                         </li>
                         <li class="nav-item d-flex flex-direction-row">
-                            <a href="{{ url('/') }}" class="nav-link text-light">About Us</a>
+                            <a href="{{ url('/about') }}" class="nav-link text-light">About Us</a>
                         </li>
+
+
 
 
                             <li class="nav-item dropdown">

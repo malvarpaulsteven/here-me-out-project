@@ -17,9 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
+
 Route::get('/dashboard', function () {
     if (Auth::guest()) {
-        return redirect()->route('login');
+        return redirect()->route('login')->with('error', 'You need to register before you can access this page.');
     }
     return view('pages.dashboard');
 });

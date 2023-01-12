@@ -26,6 +26,38 @@
             <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
         </svg>
     </div>
+    <footer class="p-5 vh-sm-100 bg-dark d-sm-flex justify-content-center align-items-center" id="footer">
+        <div class="container">
+          <div class="row row-wrap g-4">
+            <div class="col-md-6 text-center text-light">
+              <img src="img/HearMeOutTransparentLogo.png" alt="" style="width: 40%;">
+              <p class="lead fs-6 text-secondary">
+                <i class="fa-solid fa-phone"></i>
+                +63 998 996 0000
+              </p>
+              <p class="lead fs-6 text-secondary">
+                <i class="fa-solid fa-phone"></i>
+                +63 917 000 0000
+              </p>
+              <i class="fa-brands fa-facebook fa-2x"></i>
+              <i class="fa-brands fa-twitter fa-2x text-light"></i>
+              <i class="fa-brands fa-instagram fa-2x text-light"></i>
+            </div>
+            <div class="col-md-3 text-lg-start text-center text-light">
+              <h5 class="fw-bold">HearMeOut</h5>
+              <p class="lead fs-6">Home</p>
+              <p class="lead fs-6">About Us</p>
+              <p class="lead fs-6">Contact Us</p>
+            </div>
+            <div class="col-md-3 text-lg-start text-center text-light">
+              <h5 class="fw-bold">Information</h5>
+              <p class="lead fs-6">Terms of Use</p>
+              <p class="lead fs-6">Privacy Policy</p>
+              <p class="lead fs-6">2023 | All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
 </section>
 
 
