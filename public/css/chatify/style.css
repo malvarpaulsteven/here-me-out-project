@@ -844,7 +844,7 @@ div.loadingPlaceholder-date {
   .messenger-infoView {
     position: fixed;
     right: 0;
-    top: 0;
+    top: 55.5;
     bottom: 0;
     max-width: 334px;
   }
@@ -853,7 +853,7 @@ div.loadingPlaceholder-date {
   .messenger-listView {
     position: fixed;
     left: 0;
-    top: 0;
+    top: 55.5;
     bottom: 0;
     max-width: 334px;
   }
