@@ -5,13 +5,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.header {
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
 
 :root {
   --main-color: #ffd341;
@@ -32,8 +25,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-
 }
+
 .middle h1 {
   font-size: 60px;
 }
@@ -131,7 +124,11 @@
     z-index: 7;
     /* margin-top: 100px !important; */
 }
-.alert-css {
+
+
+
+
+/* .alert-css {
     margin-top: 20px;
 }
 
@@ -172,12 +169,81 @@
   .dashboard-link2:hover{
     color: white;
   }
-}
+} */
 
 /* About Page CSS */
+.about-page {
+    margin-top: 70px !important;
+    z-index: 7;
+}
+.contact-box {
+    background-color: #ffffff;
+    border: 1px solid #e7eaec;
+    padding: 20px;
+    margin-bottom: 20px;
+    z-index: 7 !important;
+  }
+  .contact-box > a {
+    color: inherit;
+  }
+  .contact-box.center-version {
+    border: 1px solid #e7eaec;
+    padding: 0;
+    z-index: 7 !important;
+  }
+  .contact-box.center-version > a {
+    display: block;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    z-index: 7 !important;
+  }
+  .contact-box.center-version > a img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    z-index: 7 !important;
+  }
+  .contact-box.center-version address {
+    margin-bottom: 0;
+    z-index: 7 !important;
+  }
+  .contact-box .contact-box-footer {
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 1px solid #e7eaec;
+    padding: 15px 20px;
+    z-index: 7 !important;
+  }
+  a{
+      text-decoration:none !important;
+      z-index: 7 !important;
+  }
+  .custom-shape-divider-top-1673926086 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
+.custom-shape-divider-top-1673926086 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1673926086 .shape-fill {
+    fill: #F8F1F39C;
+}
 
 /* Messenger */
 .messenger {
     margin-top: 54px;
 }
+
+

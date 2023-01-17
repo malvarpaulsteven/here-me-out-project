@@ -30,7 +30,6 @@
             <img class="mental-image img-fluid w-50  d-lg-block d-none" src="{{ URL('img/mental2.png') }}" alt="" />
         </div>
         </div>
-        <img src="img/road.png" alt="" width="100%" class="road-image">
     </section>
 
     <div class="container">
