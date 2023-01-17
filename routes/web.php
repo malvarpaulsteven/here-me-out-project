@@ -21,6 +21,9 @@ Route::get('/about', function () {
     return view('pages.about');
 });
 
+Route::get('/question', function () {
+    return view('pages.question');
+});
 
 Route::get('/dashboard', function () {
     if (Auth::guest()) {
