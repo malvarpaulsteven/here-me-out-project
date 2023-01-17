@@ -12,6 +12,7 @@
   height: 100vh;
   position: relative;
 }
+
 :root {
   --main-color: #ffd341;
 }
@@ -178,5 +179,5 @@
 
 /* Messenger */
 .messenger {
-    margin-top: 20px;
+    margin-top: 54px;
 }

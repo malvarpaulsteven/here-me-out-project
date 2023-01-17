@@ -20,8 +20,8 @@
             <img class="card-img-top" src="{{ URL('img/question.jpg') }}"
                  alt="Card image cap">
             <div class="card-body">
-              <a href="{{ url('/chatify')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link">Connect with volunteers.</p></a>
-              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Volunteers.</p></a>
+              <a href="{{ url('/messenger')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link">Connect with volunteers.</p></a>
+              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Volunteers</p></a>
               {{-- <a class="btn btn-success" href="#">Click Here</a> --}}
             </div>
           </div>
@@ -32,7 +32,7 @@
                    alt="Card image cap">
               <div class="card-body">
                 <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link">Connect with professionals.</p></a>
-                <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Professionals.</p></a>
+                <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Professionals</p></a>
                 {{-- <a class="btn btn-success" href="#">Click Here</a> --}}
               </div>
             </div>
@@ -42,8 +42,8 @@
             <img class="card-img-top" src="{{ URL('img/question.jpg') }}"
                  alt="Card image cap">
             <div class="card-body">
-              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link">Time Capsule.</p></a>
-              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Time Capsule.</p></a>
+              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link">Time Capsule</p></a>
+              <a href="{{ url('/')}}" style="text-decoration: none; color: black " class=""><p class="card-title, dashboard-link2">Time Capsule</p></a>
                 {{-- <a class="btn btn-success" href="#">Click Here</a> --}}
             </div>
           </div>
