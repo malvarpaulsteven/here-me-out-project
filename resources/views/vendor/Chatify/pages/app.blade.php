@@ -1,5 +1,3 @@
-{{-- @extends('pages.layout') --}}
-
 @include('Chatify::layouts.headLinks')
 <div class="messenger">
     {{-- ----------------------Users/Groups lists side---------------------- --}}
