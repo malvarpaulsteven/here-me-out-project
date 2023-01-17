@@ -12,7 +12,7 @@
                     <div class="card-body">
                       <h5 class="card-title">QUESTIONS</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go Now!</a>
+                      <a href="{{ url('/question')}}" class="btn btn-primary">Go Now!</a>
                     </div>
                 </div>
                 <div class="card w-100 mb-2">
