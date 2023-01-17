@@ -1,6 +1,9 @@
+@include('Chatify::layouts.headLinks')
+
 @extends('pages.layout')
 
 @section('content')
+
 <div class="messenger">
     {{-- ----------------------Users/Groups lists side---------------------- --}}
     <div class="messenger-listView">
