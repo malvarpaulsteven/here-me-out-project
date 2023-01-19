@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
 * {
   margin: 0px;
   padding: 0px;
@@ -125,51 +126,51 @@
     /* margin-top: 100px !important; */
 }
 
-
-
-
-/* .alert-css {
-    margin-top: 20px;
+.water-color {
+    z-index: 2;
+    opacity: 0.5;
 }
 
-.card-container{
+.card-menu {
+    z-index: 7 !important;
+    border: none;
+    box-shadow: 4px 4px 10px rgb(4, 4, 4);
+}
+
+.random-qoutes {
+    z-index: 7;
+    margin-top: 80px;
+    padding: 20px;
+    font-family:'Titan One',cursive;
+    font-size:40px;
+    font-weight:200;
+    color: rgb(68, 255, 215);
+    text-shadow: 4px 4px 6px #0c0c0c;
+}
+
+
+
+
+.custom-shape-divider-top-1674004744 {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    z-index: 7;
+    overflow: hidden;
+    line-height: 0;
 }
 
-.card-css {
-    transition: 0.98s;
-    z-index: 7;
-}
-
-.card-css:hover{
-    background-color: #E4A11B;
-    color: white;
-    transform: scale(1.1);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-    z-index: 7;
-}
-
-.dashboard-link:hover{
-  color: white;
-}
-
-.dashboard-link2{
-  display: none;
-}
-
-@media only screen and (max-width: 1200px){
-  .dashboard-link2{
+.custom-shape-divider-top-1674004744 svg {
+    position: relative;
     display: block;
-  }
-  .dashboard-link{
-    display: none;
-  }
-  .dashboard-link2:hover{
-    color: white;
-  }
-} */
+    width: calc(206% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1674004744 .shape-fill {
+    fill: #FAF3F582;
+}
+
 
 /* About Page CSS */
 .about-page {
@@ -182,6 +183,7 @@
     padding: 20px;
     margin-bottom: 20px;
     z-index: 7 !important;
+    box-shadow: 2px 2px 10px rgb(4, 4, 4);
   }
   .contact-box > a {
     color: inherit;
@@ -247,3 +249,11 @@
 }
 
 
+/* Diary Page */
+.diary-page {
+    margin-top: 100px !important;
+}
+
+.diary-card {
+    box-shadow: 4px 4px 10px rgb(4, 4, 4);
+}
