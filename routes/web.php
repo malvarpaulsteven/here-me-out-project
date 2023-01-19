@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DiaryController;
 // use Auth;
 /*
 |--------------------------------------------------------------------------
@@ -33,5 +34,17 @@ Route::get('/dashboard', function () {
 });
 
 Auth::routes();
+
+// Route::resource('/diary', DiaryController::class);
+// Route::resource('/diary/create', DiaryController::class);
+
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::prefix('diary')->group(function () {
+    Route::get('/', [DiaryController::class, 'index']);
+    Route::get('/create', [DiaryController::class, 'create']);
+    Route::get('/update/{id}', [DiaryController::class, 'updateView']);
+    Route::post('/create-diary', [DiaryController::class, 'store']);
+    Route::post('/update-diary', [DiaryController::class, 'updateDiary']);
+    Route::post('/delete-diary', [DiaryController::class, 'destroy']);
+});
