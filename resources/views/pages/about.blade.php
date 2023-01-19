@@ -15,10 +15,9 @@
 
                     <div class="font-bold">Web Developer</div>
                     <address class="m-t-md">
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                        <strong>KodeGo</strong><br>
+                        Lemery, Batangas<br>
+                        Philippines<br>
                     </address>
 
                 </a>
@@ -40,10 +39,9 @@
 
                     <div class="font-bold">Web Developer</div>
                     <address class="m-t-md">
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                        <strong>KodeGo</strong><br>
+                        Metro, Manila<br>
+                        Philippines<br>
                     </address>
 
                 </a>
@@ -65,10 +63,9 @@
 
                     <div class="font-bold">Web Developer</div>
                     <address class="m-t-md">
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                        <strong>KodeGo</strong><br>
+                        Metro Manila<br>
+                        Philippines<br>
                     </address>
 
                 </a>
