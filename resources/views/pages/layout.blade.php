@@ -13,7 +13,7 @@
 </head>
 <body class="bg-warning">
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-primary shadow-sm  fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary shadow-sm  fixed-top">
             <div class="container">
                 <a class="navbar-brand text-light" href="{{ url('/') }}">
                    Here.Me.Out
@@ -49,6 +49,15 @@
                         @else
                         <li class="nav-item d-flex flex-direction-row">
                             <a href="{{ url('/dashboard') }}" class="nav-link text-light">Dashboard</a>
+                        </li>
+                        <li class="nav-item d-flex flex-direction-row">
+                            <a href="{{ url('/question')}}" class="nav-link text-light">Question</a>
+                        </li>
+                        <li class="nav-item d-flex flex-direction-row">
+                            <a href="{{ url('/messenger')}}" class="nav-link text-light">Connect</a>
+                        </li>
+                        <li class="nav-item d-flex flex-direction-row">
+                            <a href="{{ url('/diary') }}" class="nav-link text-light">Diary</a>
                         </li>
                         <li class="nav-item d-flex flex-direction-row">
                             <a href="{{ url('/about') }}" class="nav-link text-light">About Us</a>
