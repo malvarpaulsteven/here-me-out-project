@@ -4,7 +4,7 @@
 <section class="dashboard-page vh-sm-100 d-sm-flex justify-content-center align-items-center" id="">
     <div class="container d-lg-flex">
         <div class="qoutes-container  col-lg-6 d-flex justify-content-center align-items-center">
-            <h1 class="random-qoutes text-primary">{{ \Illuminate\Foundation\Inspiring::quote() }}</h1>
+            <h1 class="random-qoutes fw-bold text-lg-start text-center">{{ \Illuminate\Foundation\Inspiring::quote() }}</h1>
             <img  class="water-color img-fluid w-50  d-lg-block d-none" src="{{ URL('img/water-color.png') }}" alt="mental image" style="position: absolute" />
         </div>
         <div class="col-lg-6 d-flex justify-content-center align-items-center">
@@ -12,22 +12,22 @@
                 <div class="card card-menu w-100 mb-4 bg-primary text-light">
                     <div class="card-body">
                       <h4 class="card-title">QUESTIONS</h4>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="{{ url('/question')}}" class="btn btn-warning">Go Now!</a>
+                      <p class="card-text">A quick online self-assessment to detect depression levels.</p>
+                      <a href="{{ url('/question')}}" class="btn btn-warning">Try Now!</a>
                     </div>
                 </div>
                 <div class="card card-menu w-100 mb-4 bg-primary text-light">
                     <div class="card-body">
                       <h4 class="card-title">CONNECT WITH OTHER USERS</h4>
                       <p class="card-text">An instant messaging feature built into HereMeOut website.</p>
-                      <a href="{{ url('/messenger')}}" class="btn btn-warning">Go Now!</a>
+                      <a href="{{ url('/messenger')}}" class="btn btn-warning">Try Now!</a>
                     </div>
                 </div>
                 <div class="card card-menu w-100 mb-4 bg-primary text-light">
                     <div class="card-body">
                       <h4 class="card-title">ONLINE DIARY</h4>
                       <p class="card-text">An online diary allows you to create digital diaries for free.</p>
-                      <a href="{{ url('/diary') }}" class="btn btn-warning">Go Now!</a>
+                      <a href="{{ url('/diary') }}" class="btn btn-warning">Try Now!</a>
                     </div>
                 </div>
             </div>
